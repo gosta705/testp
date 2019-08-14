@@ -3,6 +3,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.util.Iterator;
 import java.util.concurrent.TimeUnit;
@@ -25,7 +26,18 @@ public class PerformanceTest {
     @Before
     public void setUp() throws Exception {
         System.setProperty( "webdriver.chrome.driver", "C:/Users/t.gospodarova/Documents/ChromeDriver/chromedriver.exe");
-        driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--incognito");
+        options.addArguments("enable-automation");
+        options.addArguments("--headless");
+        options.addArguments("--no-sandbox");
+        options.addArguments("--window-size=1920,1080");
+        options.addArguments("--disable-gpu");
+        options.addArguments("--disable-extensions");
+        options.addArguments("--dns-prefetch-disable");
+        //options.addArguments("--disable-features=VizDisplayCompositor");
+
+        driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
         driver.manage().timeouts().setScriptTimeout(10, TimeUnit.SECONDS);

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36d074fd-5c95-42a2-afd0-a68f03451855" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_12.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PerformanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PerformanceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PerformanceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+            <state relative-caret-position="629">
+              <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+            <state relative-caret-position="272">
+              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -125,6 +126,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PerfTest3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PerfTest3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PerfTest3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -137,7 +149,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Selenium" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../selenium-server-standalone-3.141.59.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -214,21 +226,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCase1 - 2019.08.13 at 18h 14m 08s.xml">
-      <configuration name="TestCase1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCase1 - 2019.08.13 at 18h 15m 48s.xml">
-      <configuration name="TestCase1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCase1 - 2019.08.13 at 18h 19m 13s.xml">
-      <configuration name="TestCase1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCase1 - 2019.08.13 at 18h 20m 10s.xml">
-      <configuration name="TestCase1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCase1 - 2019.08.13 at 18h 22m 42s.xml">
-      <configuration name="TestCase1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestCase1 - 2019.08.13 at 18h 23m 44s.xml">
       <configuration name="TestCase1" configurationId="JUnit" />
     </history-entry>
@@ -244,9 +241,24 @@
     <history-entry file="PerformanceTest - 2019.08.14 at 13h 59m 39s.xml">
       <configuration name="PerformanceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PerformanceTest - 2019.08.14 at 14h 08m 13s.xml">
+      <configuration name="PerformanceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PerformanceTest - 2019.08.14 at 14h 09m 07s.xml">
+      <configuration name="PerformanceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PerformanceTest - 2019.08.14 at 14h 09m 56s.xml">
+      <configuration name="PerformanceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PerformanceTest - 2019.08.14 at 14h 10m 29s.xml">
+      <configuration name="PerformanceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PerformanceTest - 2019.08.14 at 14h 16m 24s.xml">
+      <configuration name="PerformanceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12686567" />
@@ -331,15 +343,15 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/CucumberContext.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        <state relative-caret-position="272">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PerformanceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+        <state relative-caret-position="629">
+          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -401,7 +413,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
