@@ -19,8 +19,7 @@ public class PerformanceTest {
     private boolean acceptNextAlert = true;
     private StringBuffer verificationErrors = new StringBuffer();
     private String cashIp = "http://172.29.16.238:8081/#/";
-   private Logger LOGGER;
-
+    
     private static final String KEY_PATTERN = "//button//span[text()='%s']/../..";
     private static final String NUMBER_KEY_PATTERN = "//div[contains(@class,'numpad')]//button//span[text()='%s']/../..";
     private String [] items = {"кефир апельсиновый", "йогурт апельсиновый", "кефир яблочный", "напиток вишневый", "лимонад вишневый",
@@ -49,7 +48,6 @@ public class PerformanceTest {
         driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
         driver.manage().timeouts().setScriptTimeout(10, TimeUnit.SECONDS);
 
-        LOGGER.log(Level.INFO, "Проинициализирован браузер");
     }
 
     @Test
