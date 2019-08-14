@@ -30,7 +30,7 @@ public class PerformanceTest {
     }
 
     @Test
-    public void testCase1() throws Exception {
+    public void performanceTest() throws Exception {
 
             //логин
             driver.get(cashIp);
