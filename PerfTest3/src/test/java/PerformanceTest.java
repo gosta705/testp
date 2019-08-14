@@ -57,7 +57,7 @@ public class PerformanceTest {
     }
 
     public void enterWordDefaultLanguageRu(String word) {
-        for (int i = 0; i < word.length(); i++) {
+        for (int i = 0; i <3; i++) {
             String letter = String.valueOf(word.charAt(i));
             if(letter.equals(" "))  driver.findElement(By.xpath("//div[@class='space key']/div/button")).click();
             else{
