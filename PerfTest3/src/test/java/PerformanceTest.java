@@ -36,12 +36,12 @@ public class PerformanceTest {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--incognito");
         options.addArguments("enable-automation");
-        /*options.addArguments("--headless");
+        options.addArguments("--headless");
         options.addArguments("--no-sandbox");
         options.addArguments("--window-size=1920,1080");
         options.addArguments("--disable-gpu");
         options.addArguments("--disable-extensions");
-        options.addArguments("--dns-prefetch-disable");
+        /*options.addArguments("--dns-prefetch-disable");
         //options.addArguments("--disable-features=VizDisplayCompositor");
 */
         driver = new ChromeDriver(options);
