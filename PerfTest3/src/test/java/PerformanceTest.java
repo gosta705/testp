@@ -19,15 +19,14 @@ public class PerformanceTest {
     private boolean acceptNextAlert = true;
     private StringBuffer verificationErrors = new StringBuffer();
     private String cashIp = "http://172.29.16.238:8081/#/";
-    
+
     private static final String KEY_PATTERN = "//button//span[text()='%s']/../..";
     private static final String NUMBER_KEY_PATTERN = "//div[contains(@class,'numpad')]//button//span[text()='%s']/../..";
     private String [] items = {"кефир апельсиновый", "йогурт апельсиновый", "кефир яблочный", "напиток вишневый", "лимонад вишневый",
                                "пряник виноградный", "пряник банановый", "пряник грушевый", "кефир вишневый", "кефир банановый",
                                "напиток апельсиновый", "напиток виноградный", "напиток малиновый", "напиток томатный", "напиток яблочный",
                                "йогурт виноградный", "йогурт клубничный", "йогурт лимонный", "йогурт малиновый", "йогурт томатный"};
-
-
+    
     @Before
     public void setUp() throws Exception {
 
