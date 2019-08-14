@@ -5,8 +5,12 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+import java.io.FileInputStream;
 import java.util.Iterator;
 import java.util.concurrent.TimeUnit;
+import java.util.logging.Level;
+import java.util.logging.LogManager;
+import java.util.logging.Logger;
 
 import static org.junit.Assert.fail;
 
@@ -15,6 +19,8 @@ public class PerformanceTest {
     private boolean acceptNextAlert = true;
     private StringBuffer verificationErrors = new StringBuffer();
     private String cashIp = "http://172.29.16.238:8081/#/";
+   private Logger LOGGER;
+
     private static final String KEY_PATTERN = "//button//span[text()='%s']/../..";
     private static final String NUMBER_KEY_PATTERN = "//div[contains(@class,'numpad')]//button//span[text()='%s']/../..";
     private String [] items = {"кефир апельсиновый", "йогурт апельсиновый", "кефир яблочный", "напиток вишневый", "лимонад вишневый",
@@ -25,10 +31,11 @@ public class PerformanceTest {
 
     @Before
     public void setUp() throws Exception {
+
         System.setProperty( "webdriver.chrome.driver", "C:/Users/t.gospodarova/Documents/ChromeDriver/chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--incognito");
-        options.addArguments("enable-automation");
+        /*options.addArguments("enable-automation");
         options.addArguments("--headless");
         options.addArguments("--no-sandbox");
         options.addArguments("--window-size=1920,1080");
@@ -36,11 +43,13 @@ public class PerformanceTest {
         options.addArguments("--disable-extensions");
         options.addArguments("--dns-prefetch-disable");
         //options.addArguments("--disable-features=VizDisplayCompositor");
-
+*/
         driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
         driver.manage().timeouts().setScriptTimeout(10, TimeUnit.SECONDS);
+
+        LOGGER.log(Level.INFO, "Проинициализирован браузер");
     }
 
     @Test
@@ -51,7 +60,7 @@ public class PerformanceTest {
             login();
 
             //выбор товара
-            for(int i = 0; i<items.length; ++i){
+            for(int i = 0; i<1; ++i){
                 addItemToCheck(items[i]);
             }
 
