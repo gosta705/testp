@@ -35,8 +35,8 @@ public class PerformanceTest {
         System.setProperty( "webdriver.chrome.driver", "C:/Users/t.gospodarova/Documents/ChromeDriver/chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--incognito");
-        /*options.addArguments("enable-automation");
-        options.addArguments("--headless");
+        options.addArguments("enable-automation");
+        /*options.addArguments("--headless");
         options.addArguments("--no-sandbox");
         options.addArguments("--window-size=1920,1080");
         options.addArguments("--disable-gpu");
