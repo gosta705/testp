@@ -23,7 +23,6 @@ build/
 target/
 bin/
 temp/
-.idea/
 *.iml
 *.classpath
 *.project
