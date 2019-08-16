@@ -58,7 +58,7 @@ public class PerformanceTest {
 
             //выбор товара
             for(int i = 0; i<1; ++i){
-               // addItemToCheck(items[i]);
+                //addItemToCheck(items[i]);
             }
 
             //расчитать и оплатить

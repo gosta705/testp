@@ -6,11 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="PerfTest3" />
         <module name="3" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="3" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>
