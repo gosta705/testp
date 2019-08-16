@@ -20,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PerformanceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+            <state relative-caret-position="592">
+              <caret line="128" column="79" lean-forward="true" selection-start-line="128" selection-start-column="79" selection-end-line="128" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3966#3967#0" expanded="true" />
@@ -273,7 +273,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.248104" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.248104" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -286,7 +286,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info active="true" anchor="right" id="Maven" order="4" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.32995737" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -353,8 +353,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PerformanceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        <state relative-caret-position="592">
+          <caret line="128" column="79" lean-forward="true" selection-start-line="128" selection-start-column="79" selection-end-line="128" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3966#3967#0" expanded="true" />

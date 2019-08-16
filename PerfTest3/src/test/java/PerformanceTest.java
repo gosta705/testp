@@ -26,13 +26,13 @@ public class PerformanceTest {
                                "пряник виноградный", "пряник банановый", "пряник грушевый", "кефир вишневый", "кефир банановый",
                                "напиток апельсиновый", "напиток виноградный", "напиток малиновый", "напиток томатный", "напиток яблочный",
                                "йогурт виноградный", "йогурт клубничный", "йогурт лимонный", "йогурт малиновый", "йогурт томатный"};
-    
+
     @Before
     public void setUp() throws Exception {
 
         System.setProperty( "webdriver.chrome.driver", "C:/Users/t.gospodarova/Documents/ChromeDriver/chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--incognito");
+        /*options.addArguments("--incognito");
         options.addArguments("enable-automation");
         options.addArguments("--headless");
         options.addArguments("--no-sandbox");
